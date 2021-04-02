@@ -1,0 +1,509 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input,
+select {
+  vertical-align: middle;
+}
+
+/*My code*/
+/*DeskTop*/
+* {
+  box-sizing: border-box;
+}
+
+.game {
+  max-width: 100%;
+  min-height: 500px;
+  background-image: url("../img/mario.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: center;
+}
+
+.why {
+  max-width: 100%;
+  min-height: 100px;
+  background-color: rgb(70, 50, 120);
+  display: block;
+}
+
+.why .future {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(200, 200, 180);
+  margin-bottom: 20px;
+}
+
+.why .reason {
+  text-align: center;
+  display: block;
+  line-height: 25px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.hobbies {
+  max-width: 100%;
+  min-height: 690px;
+  background-image: url("../img/sm-friends.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.possibilities {
+  max-width: 100%;
+  min-height: 100px;
+  background-color: rgb(70, 50, 120);
+  display: block;
+}
+
+.possibilities .great-future {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(200, 200, 180);
+  margin-bottom: 20px;
+}
+
+.possibilities .best-future {
+  text-align: center;
+  display: block;
+  line-height: 25px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.pic {
+  max-width: 100%;
+  min-height: 800px;
+  background-image: url("../img/sm-wins.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+.goals {
+  max-width: 100%;
+  min-height: 100px;
+  background-color: rgb(70, 50, 120);
+  display: block;
+}
+
+.goals .follow {
+  text-align: center;
+  font-size: 20px;
+  color: rgb(200, 200, 180);
+  margin-bottom: 20px;
+}
+
+.goals .bright {
+  text-align: center;
+  display: block;
+  line-height: 25px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.happy {
+  max-width: 100%;
+  min-height: 800px;
+  background-image: url("../img/sm-happy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+}
+
+@media only screen and (min-width: 1000px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .game {
+    max-width: 100%;
+    min-height: 500px;
+    background-image: url("../img/mario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: center;
+  }
+
+  .why {
+    max-width: 100%;
+    min-height: 150px;
+    background-color: rgb(70, 50, 120);
+    display: block;
+  }
+
+  .why .future {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(200, 200, 180);
+    margin-bottom: 20px;
+  }
+
+  .why .reason {
+    text-align: center;
+    display: block;
+    line-height: 140%;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .hobbies {
+    max-width: 100%;
+    min-height: 690px;
+    background-image: url("../img/sm-friends.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+  }
+
+  .possibilities {
+    max-width: 100%;
+    min-height: 150px;
+    background-color: rgb(70, 50, 120);
+    display: block;
+  }
+
+  .possibilities .great-future {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(200, 200, 180);
+    margin-bottom: 20px;
+  }
+
+  .possibilities .best-future {
+    text-align: center;
+    display: block;
+    line-height: 140%;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .pic {
+    max-width: 100%;
+    min-height: 800px;
+    background-image: url("../img/sm-wins.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+  }
+
+  .goals {
+    max-width: 100%;
+    min-height: 150px;
+    background-color: rgb(70, 50, 120);
+    display: block;
+  }
+
+  .goals .follow {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(200, 200, 180);
+    margin-bottom: 20px;
+  }
+
+  .goals .bright {
+    text-align: center;
+    display: block;
+    line-height: 140%;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .happy {
+    max-width: 100%;
+    min-height: 800px;
+    background-image: url("../img/sm-happy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: scroll;
+  }
+}
+
+@media only screen and (max-width: 999px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .game {
+    max-width: 100%;
+    min-height: 500px;
+    background-image: url("../img/mario.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+  }
+
+  .why {
+    max-width: 100%;
+    min-height: 150px;
+    background-color: rgb(70, 50, 120);
+    display: block;
+  }
+
+  .why .future {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(200, 200, 180);
+    margin-bottom: 20px;
+  }
+
+  .why .reason {
+    text-align: center;
+    display: block;
+    line-height: 140%;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .hobbies {
+    max-width: 100%;
+    min-height: 690px;
+    background-image: url("../img/sm-friends.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .possibilities {
+    max-width: 100%;
+    min-height: 150px;
+    background-color: rgb(70, 50, 120);
+    display: block;
+  }
+
+  .possibilities .great-future {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(200, 200, 180);
+    margin-bottom: 20px;
+  }
+
+  .possibilities .best-future {
+    text-align: center;
+    display: block;
+    line-height: 140%;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .pic {
+    max-width: 100%;
+    min-height: 800px;
+    background-image: url("../img/sm-wins.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .goals {
+    max-width: 100%;
+    min-height: 150px;
+    background-color: rgb(70, 50, 120);
+    display: block;
+  }
+
+  .goals .follow {
+    text-align: center;
+    font-size: 20px;
+    color: rgb(200, 200, 180);
+    margin-bottom: 20px;
+  }
+
+  .goals .bright {
+    text-align: center;
+    display: block;
+    line-height: 140%;
+    font-size: 18px;
+    color: #fff;
+  }
+
+  .happy {
+    max-width: 100%;
+    min-height: 800px;
+    background-image: url("../img/sm-happy.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-attachment: scroll;
+  }
+}
